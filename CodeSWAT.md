@@ -307,5 +307,5 @@ The model generates. CodeSWAT decides what is allowed to pass.
 
 The raw pipeline execution traces referenced in this validation report are preserved as benchmarks:
 
-- **Run A Telemetry Trace**: In-Memory User Session Tracker trace (~30 s total, 0 retries).
-- **Run B Telemetry Trace**: Customer Loyalty Points Service trace (~72 s total, 0 group-level retries, dead-code gap noted in Section 11).
+- **Run A Telemetry Trace**: [In-Memory User Session Tracker trace](https://github.com/sylxforce-dev/sovereign-codeswat/blob/main/Logs/Logs_2.md) (~30 s total, 0 retries).
+- **Run B Telemetry Trace**: [Customer Loyalty Points Service trace](https://github.com/sylxforce-dev/sovereign-codeswat/blob/main/Logs/Logs_1.md) (~72 s total, 0 group-level retries, dead-code gap noted in Section 11).
