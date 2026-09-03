@@ -301,5 +301,9 @@ The model generates. **CodeSWAT decides what is allowed to pass.**
 
 The raw pipeline execution traces referenced in this validation report are preserved as immutable benchmarks:
 
-* **`logs1.log`**: Run A — In-Memory User Session Tracker execution trace (~30s, 0 retries).
-* **`logs2.log`**: Run B — Customer Loyalty Points Service execution trace and dead-code duplicate validation analysis (~60s).
+### Artifacts & Telemetry References
+
+The raw pipeline execution traces referenced in this validation report are preserved as immutable benchmarks:
+
+* **[Run A Telemetry Trace](Logs/Logs_1.md)**: In-Memory User Session Tracker trace (~30s, 0 retries).
+* **[Run B Telemetry Trace](Logs/Logs_2.md)**: Customer Loyalty Points Service trace and duplicate validation analysis (~60s).
